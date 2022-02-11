@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Push Force Game</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <p id="score">Score: 0</p>
+    <p id="share_container">
+      Share your progress on
+      <a onClick="share()">Twitter</a>
+    </p>
+    <div class="instructions">
+      <h3>HELLO Au LE JEU DE LA PRESSION</h3>
+      <p>
+        À l'aide de la force de poussée de la souris, guidez votre petit ami dans les points verts pour gagner des points et éviter de toucher les points rouges car vous perdrez 5
+        points.
+      </p>
+      <p>Savoir! Ce n'est pas si facile! amusez- vous! 😃</p>
+      <button onClick="startGame()">démarrer une partie</button>
+    </div>
+    <!-- panneau social  -->
+    <div class="social-panel-container">
+        <div class="social-panel">
+          <p>
+            Crée avec <i class="fa fa-heart"></i> par
+            <a target="_blank" href="https://hakouben.github.io/portfolio/">Benadjaoud Abdelhak</a>
+          </p>
+          <button class="close-btn"><i class="fas fa-times"></i></button>
+          <h4>CONTACTEZ-MOI</h4>
+          <ul>
+            <li>
+              <a href="https://instagram.com/hk_was_here" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/abdelhak-benadjaoud-7b6204219" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button class="floating-btn">
+     CONTACTEZ-MOI
+      </button>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
