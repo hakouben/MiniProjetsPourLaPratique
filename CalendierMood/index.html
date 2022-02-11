@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <title>Calendier des moods 2022</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>2022 calendier des moods</h2>
+      <h4>~ Coloriez le calendier suivant votre mood ~</h4>
+      <p>Sélectionner un mood:</p>
+      <div class="moods_container">
+        <button class="mood mood_1" id="mood_1">
+          <i class="far fa-laugh"></i>
+        </button>
+        <button class="mood mood_2" id="mood_2">
+          <i class="far fa-smile"></i>
+        </button>
+        <button class="mood mood_3" id="mood_3">
+          <i class="far fa-meh"></i>
+        </button>
+        <button class="mood mood_4" id="mood_4">
+          <i class="far fa-frown"></i>
+        </button>
+        <button class="mood mood_5" id="mood_5">
+          <i class="far fa-sad-tear"></i>
+        </button>
+      </div>
+      <p>cliquez sur les cercles en dessous</p>
+      
+      <button id="clear" class="action_btn clear">
+        <i class="fas fa-sync"></i>
+      </button>
+      <div id="calendar" class="calendar"></div>
+    </div>   
+    <!-- panneau social  -->
+    <div class="social-panel-container">
+      <div class="social-panel">
+        <p>
+          Crée avec <i class="fa fa-heart"></i> par
+          <a target="_blank" href="https://hakouben.github.io/portfolio/">Benadjaoud Abdelhak</a>
+        </p>
+        <button class="close-btn"><i class="fas fa-times"></i></button>
+        <h4>CONTACTEZ-MOI</h4>
+        <ul>
+          <li>
+            <a href="https://instagram.com/hk_was_here" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/abdelhak-benadjaoud-7b6204219" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <button class="floating-btn">
+   CONTACTEZ-MOI
+    </button>
+    <script src="script.js"></script>
+  </body>
+</html>
